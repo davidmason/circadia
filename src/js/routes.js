@@ -6,6 +6,7 @@ import FriendListApp from './containers/FriendListApp/FriendListApp';
 import NotFoundView from './views/NotFoundView';
 
 export default (
+                // TODO change for the different thing or add a route
   <Route path="/" component={App}>
     <IndexRoute component={FriendListApp} />
     <Route path="404" component={NotFoundView} />

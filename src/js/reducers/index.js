@@ -1,8 +1,10 @@
-import { combineReducers } from 'redux';
-import friendList from './friendList';
+import { combineReducers } from 'redux'
+import friendList from './friendList'
+import tasks from './tasks'
 
 const rootReducer = combineReducers({
-  friendList
+  friendList,
+  tasks
 });
 
 export default rootReducer;
